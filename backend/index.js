@@ -4,6 +4,9 @@ const app = express();
 const port = 3000;
 //app.use(express.json())
 
+//db sqlite
+require('./queries')
+
 app.use(bodyParser.json())
 app.use(
     bodyParser.urlencoded({
