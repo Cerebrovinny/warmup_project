@@ -5,7 +5,7 @@ const port = 3000;
 //app.use(express.json())
 
 //db sqlite
-require('./queries')
+require('./model1.ts')
 
 app.use(bodyParser.json())
 app.use(
