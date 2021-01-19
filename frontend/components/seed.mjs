@@ -6,4 +6,3 @@ class MyTitle extends HTMLElement {
     }
 }
 customElements.define(`my-title`, MyTitle);
-

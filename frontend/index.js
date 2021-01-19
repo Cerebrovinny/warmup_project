@@ -28,3 +28,21 @@ function post(){
             console.log(error);
         });
 }
+
+function changeHeader(){
+    var header = document.getElementById("change-header");
+    var coffeeHdr = document.getElementById("coffee-header")
+
+    if (coffeeHdr.style.display === "none") {
+        coffeeHdr.style.display = "block";
+    } else {
+        coffeeHdr.style.display = "none"
+    }
+
+    if (coffeeHdr.style.display === "block") {
+        header.style.display = "none"
+    } else {
+        header.style.display = "block"
+    }
+}
+
