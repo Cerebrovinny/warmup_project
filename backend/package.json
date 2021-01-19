@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./tests/index.test.js | tap-spec",
     "start": "nodemon index.js"
   },
   "author": "Vinicius Cardoso",
@@ -15,10 +15,15 @@
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
     "sqlite": "^4.0.19",
-    "sqlite3": "^5.0.1",
-    "typescript": "^4.1.3"
+    "sqlite3": "^5.0.1"
   },
   "devDependencies": {
-    "@types/node": "^14.14.21"
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.21",
+    "jest": "^26.6.3",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.1.1",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
   }
 }

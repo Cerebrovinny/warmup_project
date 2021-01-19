@@ -3,7 +3,7 @@ const sqlite = require('sqlite');
 
 async function main() {
     try {
-        const db = await sqlite.open({ filename: './database.db', driver: sqlite3.Database });
+        const db = await sqlite.open({ filename: './db/database.db', driver: sqlite3.Database });
 
         await db.run(`create table if not exists table1 (beans text, types text, size number)`);
 
@@ -19,3 +19,5 @@ async function main() {
 }
 
 main();
+
+module.exports = {main}
