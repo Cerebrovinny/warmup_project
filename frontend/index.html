@@ -4,14 +4,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
         <title>Warm Up</title>
     </head>
     <body>
-        <my-title id="change-header"></my-title>
-        <green-coffee id="coffee-header" style="display: none;"></green-coffee>
-        <button onclick="changeHeader()">Change Header</button>
+        <div class="flex-display">
+            <my-title id="change-header"></my-title>
+            <green-coffee id="coffee-header" style="display: none;"></green-coffee>
+            <button class="btn1" onclick="changeHeader()">Change Header</button>
+        </div>
+
         <p id="seeding"></p>
-        <button onclick="post()">Coffee beans</button>
+
+        <h2 class="hdr-coffee">Get some cool coffee beans</h2>
+        <p id="p-coffee">Click on this button and look to you Console</p>
+        <button class="btn1" onclick="post()">Coffee beans</button>
     </body>
     <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
     <script src="index.js"></script>
