@@ -26,8 +26,9 @@ function post(){
         })
         .catch(function(error){
             console.log(error);
+            backendError();
         });
-        backendError();
+        
 }
 
 function changeHeader(){
@@ -49,6 +50,6 @@ function changeHeader(){
 
 function backendError(){
     var elementp = document.getElementById("p-coffee");
-    var error = elementp.innerHTML = "Ooppss you have to start the backend";
+    var error = elementp.innerHTML = "Ooppss you have to start the backend before click on this button";
         return error;
 }
