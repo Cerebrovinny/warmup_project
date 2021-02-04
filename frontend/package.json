@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && cucumber-js ./tests/e2e/features/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0",
+    "@types/chai": "^4.2.14",
+    "@types/cucumber": "^7.0.0",
+    "chai": "^4.2.0",
+    "hamjest": "^3.7.1"
+  },
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0"
+  }
+}
