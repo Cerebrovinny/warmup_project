@@ -5,3 +5,5 @@ How to use:
 - open frontend using liveserver
 - cd backend && npm start
 - run tests using npm test
+
+#using cucumber and nvm and typescript
