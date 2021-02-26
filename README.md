@@ -6,4 +6,4 @@ How to use:
 - cd backend && npm start
 - run tests using npm test
 
-#using cucumber and nvm and typescript
+#Using cucumber, nvm and typescript(for tests)
